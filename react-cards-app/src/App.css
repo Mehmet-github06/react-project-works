@@ -1,0 +1,13 @@
+body {
+    background-color: #f0f0f0; /* ya da istediğiniz bir renk veya arka plan özelliği */
+  }
+  
+
+.App {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
