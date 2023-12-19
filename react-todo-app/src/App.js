@@ -46,7 +46,7 @@ function App() {
         type="text"
         placeholder="Add an item"
         value={newItem}
-        onChange={(e) => setNewItem(e.target.value.trim())}
+        onChange={(e) => setNewItem(e.target.value)}
         className="int"
         ref={inputRef}
       />
