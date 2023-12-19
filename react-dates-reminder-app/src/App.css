@@ -54,7 +54,6 @@ button{
   padding: 12.5px 25px;
   cursor: pointer;
   color: black;
-  background-color: #54E346;
   border: none;
   font-size: 16px;
   letter-spacing: 1.2px;
@@ -66,4 +65,8 @@ button{
 button:hover{
   background-color: black;
   color: #54E346;
+}
+ .butto button{
+ border-radius: 50%;
+ 
 }

@@ -6,10 +6,10 @@ function App() {
   const [holidays, setHolidays] = useState(data);
   console.log(data);
 
-// const deletes = (id) => {
-// const silici = holidays.filter((item)=>item.id !==id)
-// setHolidays(silici)
-// }
+  const deletes = (id) => {
+  const silici = holidays.filter((item)=>item.id !==id)
+  setHolidays(silici)
+  }
 
   return (
     <main>
@@ -21,10 +21,10 @@ function App() {
               <img src={holiday.img} alt="img" />
               <div>
                 <p>{holiday.title}</p>
-                <p>
-                  {holiday.date} 
-                </p>
-                {/* <button onClick={()=>deletes(holiday.id)}>X</button> */}
+                <p>{holiday.date}</p>
+              </div>
+              <div className="butto">
+                <button onClick={()=>deletes(holiday.id)}>X</button>
               </div>
             </div>
           );
