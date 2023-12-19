@@ -17,7 +17,7 @@ function App() {
       <Cards
         img="https://pest.bigbadmole.com/wp-content/uploads/2018/03/medvedica-gikori.jpg"
         title="Hickory Bear (Hickory Bear) (Lopory ayı)"
-        description="Beyaz tüylü tırtıl tehlikeli görünmüyor. Zehiri yok. Ancak kolayca ayrılan kıllar mikroskopik çentiklerle kaplıdır.Ellerde pürüzlü deri ile bu tırtıl zararlı olamaz, ancak bazı kılları için kaşıntı ve döküntüye neden olur. Alerjisi olan insanlar özellikle kıllardan etkilenir."
+        description="Beyaz tüylü tırtıl tehlikeli görünmüyor. Zehiri yok. Ancak kolayca ayrılan kıllar mikroskopik çentiklerle kaplıdır.Ellerde pürüzlü deri ile bu tırtıl zararlı olamaz, ancak bazı kılları için kaşıntı ve döküntüye neden olur."
       />
     </div>
   );
