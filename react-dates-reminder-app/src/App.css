@@ -60,6 +60,7 @@ button{
   margin-top: 20px;
   margin-bottom: 35px;
   transition: .3s;
+ border-radius: 30px;
   
 }
 button:hover{
@@ -68,5 +69,5 @@ button:hover{
 }
  .butto button{
  border-radius: 50%;
- 
+
 }
