@@ -50,7 +50,7 @@
     },
     {
         "id":9,
-        "image":"https://pbs.twimg.com/profile_images/1479715255135744001/WD2t-tri_400x400.jpg",
+        "image":"https://image.cnnturk.com/i/cnnturk/75/740x416/62b7f8a717aca901a41f0474.jpg",
         "title":"Tuncay Kantarcı",
         "Description":"Eski bürokrat, gümrük ve sınır kapılarını kontrol eden isim."
     },
