@@ -1,0 +1,102 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .question-card {
+    background-color: #f8f8f8;
+    border: 2px solid #3498DB;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .question-card:hover{
+    box-shadow: 0 0 20px 2px #3498DB , inset 0 0 10px 2px #3498DB;
+    transition: all .7s ease;
+
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul li:hover {
+    background-color: #2980b9;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  .result-title {
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #34495e;
+  }
+  
+  .result-p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218c53;
+  }
+  
