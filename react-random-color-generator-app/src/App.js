@@ -1,21 +1,14 @@
+import "./App.css";
+import Color from "./components/Color";
+import React, { useState } from 'react';
+
 
 function App() {
+  const [hex, setHex] = useState("#ffffff");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{backgroundColor:`${hex}`}} >
+     <Color hex={hex} setHex={setHex}/>
     </div>
   );
 }
