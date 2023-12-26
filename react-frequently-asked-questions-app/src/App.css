@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 0;
+  background: #edeef1;
+  letter-spacing: 1.3px;
+  background-color: #eef1c7;
+}
+
+/* Genel stil ayarları */
+.accordion {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px; /* Köşeleri yuvarlatma */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekleme */
+}
+
+.accordionHeading {
+  background-color: #f1c40f;
+  color: #333;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  font-family: "Arial", sans-serif; /* Tercih ettiğiniz okunaklı bir font ekleyebilirsiniz */
+  border-bottom: 1px solid #f39c12; /* Alt kısmına sarı çizgi ekleme */
+  border-radius: 10px 10px 0 0; /* Sadece üst köşeleri yuvarlatma */
+}
+
+.accordionContent {
+  opacity: 0;
+  height: 0;
+  display: flex;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  margin: auto;
+  font-family: "Antic Slab", serif;
+}
+
+/* Tıklanabilir durumda arkaplan rengini değiştirme */
+.accordionHeading:hover {
+  background-color: #f39c12;
+}
+
+/* Açık durumda arkaplan rengini değiştirme */
+
+.accordionContent.show {
+  height: 180px;
+  opacity: 1;
+}
+.accordionContent p{
+    font-size: 17px;
+    line-height: 1.6;
+    color: black;
+    text-align: justify;
+    /* text-indent: 20px; */
+   
+  }
