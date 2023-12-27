@@ -29,6 +29,7 @@ const Randaoprofile = () => {
   
     return (
       <div className='profileContainer'>
+        
         <img src={large} alt={first}/>
         <h1>{`${first} ${last}`}</h1>
         <p>{email}</p>
