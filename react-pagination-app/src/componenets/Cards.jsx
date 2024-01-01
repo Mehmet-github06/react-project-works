@@ -15,6 +15,7 @@ const Cards = () => {
     }
   }, []);
 
+
   return (
     <>
       <h1 className="header">
@@ -29,7 +30,7 @@ const Cards = () => {
       </h1>
       <div className="container">
         {
-            items.slice(0,3).map((item)=>(
+            items.slice(0,visible).map((item)=>(
                 <div className="card" key={item.idMeal}>
                     <div className="image">
                         <img src={item.strMealThumb} alt="meal" />
@@ -40,7 +41,8 @@ const Cards = () => {
         }
         
       </div>
-      <button>Click for more meals</button>
+      <button onClick={()=>setVisible((item)=>item+3)}>Click for more meals</button>
+      <button onClick={()=>setVisible((item)=>item-3)}>Back</button>
     </>
   );
 };
