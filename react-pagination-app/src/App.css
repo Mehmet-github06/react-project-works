@@ -20,6 +20,7 @@
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
   }
   
   .card:hover {
@@ -37,7 +38,7 @@
   }
   
   button {
-    margin-top: 20px;
+ 
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4caf50;
@@ -45,6 +46,13 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: auto 20px;
+    transition: all .5s ease;
+  }
+  button:hover{
+    transform: scale(95%);
+    background-color:#7fad7b
+    
   }
   
   @media screen and (min-width: 768px) {

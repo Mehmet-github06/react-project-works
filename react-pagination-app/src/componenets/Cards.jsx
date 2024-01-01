@@ -16,7 +16,7 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className="App">
+    <>
       <h1 className="header">
         
         <img
@@ -29,7 +29,7 @@ const Cards = () => {
       </h1>
       <div className="container">
         {
-            items.map((item)=>(
+            items.slice(0,3).map((item)=>(
                 <div className="card" key={item.idMeal}>
                     <div className="image">
                         <img src={item.strMealThumb} alt="meal" />
@@ -38,9 +38,10 @@ const Cards = () => {
                 </div>
             ))
         }
-        <button>Click for more meals</button>
+        
       </div>
-    </div>
+      <button>Click for more meals</button>
+    </>
   );
 };
 
