@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{currentTime}</h1>
+      <h1 className="animate__animated animate__zoomInDown">{currentTime}</h1>
     </div>
   );
 }
