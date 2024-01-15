@@ -6,6 +6,7 @@ import Animation from "./component/Animeation";
 function App() {
   const [loading, setLoading] = useState(true);
 
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <div>
-      <Animation/>
+      <Animation />
       <div className="App">
         {loading ? (
           <HashLoader loading={loading} color="#ff0000" size={150} />
