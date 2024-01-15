@@ -1,38 +1,30 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
-import Animation from "./component/Animeation";
-import { useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
-
+import Animation from "./component/Animeation";
 
 function App() {
-  let [loading, setLoading] = useState(false);
-
-
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 4000);
-  });
+  }, []); // Boş bağımlılık dizisi, sadece ilk render döngüsünde çalışır.
 
   return (
-    <div >
-      <Animation />
+    <div>
+      <Animation/>
       <div className="App">
-      {loading ? (
-        <HashLoader
-          loading={loading}
-          color="#ff0000"
-          size={150}
-          aria-label="Loading Spinner"
-        />
-      ) : (
-        <img src="" alt="anime" />
-      )}
+        {loading ? (
+          <HashLoader loading={loading} color="#ff0000" size={150} />
+        ) : (
+          <img
+            src="https://usagif.com/wp-content/uploads/gify/34-pikachu-hello-usagif.gif"
+            alt="anime"
+          />
+        )}
       </div>
-  
     </div>
   );
 }
