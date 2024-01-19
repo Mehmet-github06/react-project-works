@@ -58,7 +58,7 @@
   }
   
   .burger-bar.clicked:nth-child(3) {
-    transform: rotate(135deg) translate(-0.5em, 1em);
+    transform: rotate(-45deg) translate(0.5em, -1em);
     transition: ease-in 0.5s;
   }
   
