@@ -23,8 +23,8 @@ function App() {
         </a>
       </div>
 
-      <p>💻 My personal website: <a href="https://furkandogu.vercel.app/" target="_blank">https://furkandogu.vercel.app</a></p>
-      <p>📫 My email address: <strong>furkandogu2018@gmail.com</strong></p>
+      <p>💻 My personal website: <a href="https://mehmetdogan.vercel.app/" target="_blank">https://mehmetdogan.vercel.app</a></p>
+      <p>📫 My email address: <strong>mehmetseymen91@gmail.com</strong></p>
 
       <p align="left">
         <img src="https://komarev.com/ghpvc/?username=furkan-dogu&label=Profile%20views&color=0e75b6&style=flat" alt="furkan-dogu" />
