@@ -4,6 +4,8 @@ const footer = () => {
      <div className='container'>
         <div className='social'>
             <div className='soci'></div>
+            <div className='soci'></div>
+            <div className='soci'></div>
            
         </div>
      </div>
